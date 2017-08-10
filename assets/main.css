@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
+
+main {
+  flex: 1 0 auto; }
+
+.page-flexbox-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
+
+.left-logo {
+  margin-right: 1em;
+  color: white; }
+
+.middle-logo {
+  margin-left: 1em;
+  margin-right: 1em;
+  color: white; }
+
+.right-logo {
+  margin-left: 1em;
+  color: white; }
+
+/*# sourceMappingURL=main.css.map */

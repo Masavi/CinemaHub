@@ -1,0 +1,34 @@
+$logo-margin: 1em;
+$logo-color: white;
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.page-flexbox-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.left-logo {
+    margin-right: $logo-margin;
+    color: $logo-color;
+}
+
+.middle-logo {
+  margin-left: $logo-margin;
+  margin-right: $logo-margin;
+  color: $logo-color;
+}
+
+.right-logo {
+  margin-left: $logo-margin;
+  color: $logo-color;
+}
