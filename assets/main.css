@@ -24,4 +24,18 @@ main {
   margin-left: 1em;
   color: white; }
 
+  .modal-sm { width: 33% !important ; }
+
+  .pull-center >div{
+    display:block;
+    text-align:center;
+    margin:auto;
+  }
+
+  #mi_perfil> a{
+    height: 60px;
+    margin-top:2.5px;
+  }
+
+
 /*# sourceMappingURL=main.css.map */

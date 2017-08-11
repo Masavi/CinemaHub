@@ -9,8 +9,13 @@
       controllerAs: 'vm'
   });
 
-  function navCtrl() {
-      var vm = this;
+  function navCtrl($scope) {
+
+      $scope.signin = function(){
+        $('#modal_signin').modal('open')
+      }
+
+
   }
 
 })();

@@ -2,6 +2,9 @@
 <html ng-app="myApp">
   <head>
     <meta charset="UTF-8">
+    <meta name="google-signin-client_id" content="372917988801-g61536r7n9e8q38kfv98samgcg7j2f9k.apps.googleusercontent.com">
+
+
     <title>CinemaHub</title>
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -11,8 +14,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
     <!-- My Stylesheet -->
     <link  rel="stylesheet" type="text/css" href="/assets/main.css">
+
   </head>
   <body>
+
     <!-- Componentes -->
     <header>
       <nav-component></nav-component>
@@ -25,16 +30,72 @@
       <footer-component></footer-component>
     </footer>
 
+    <div id="modal_signin" class="modal modal-sm">
+      <div class="modal-content">
+        <h5>Registro</h5>
+        <p>Para comenzar esta hermosa experiencia puedes:</p>
+        <div class="row">
+          <p><b>a) Iniciar sesión con google.</b></p>
+          <div class="g-signin2 pull-center" data-onsuccess="onSignIn"></div>
+        </div>
+        <div class="row">
+          <p><b>b) O ingresa tus datos.</b></p>
+          <form>
+            <div class="input-field col s12">
+              <input id="Nombre" type="text" class="validate">
+              <label for="Nombre">Nombre</label>
+            </div>
+            <div class="input-field col s12">
+              <input id="correo" type="email" class="validate">
+              <label for="correo">correo</label>
+            </div>
+            <div class="input-field col s12">
+              <input id="password" type="password" class="validate">
+              <label for="password">Contraseña</label>
+            </div>
+
+          </form>
+        </div>
+
+
+
+      </div>
+      <div class="modal-footer">
+        <!--button class="modal-action modal-close waves-effect waves-green btn-flat">Salir</button-->
+        <a class="waves-effect waves-light btn">Registrarse</a>
+      </div>
+    </div>
+
+
+
     <!-- AngularJS script -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
     <!-- jQuery script -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+
     <!-- AngularJS main app -->
     <script src="/app/app.js"></script>
     <!-- Controller injection -->
     <script src="/app/topNavComponent/navCtrl.js"></script>
     <script src="/app/footerComponent/footerCtrl.js"></script>
+    <script src="/app/signinComponent/signinCtrl.js"></script>
+
+    <script>
+      function onSignIn(googleUser) {
+      var profile = googleUser.getBasicProfile();
+      console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+      console.log('Name: ' + profile.getName());
+      console.log('Image URL: ' + profile.getImageUrl());
+      $('.opciones_sesion:not(#mi_perfil)').hide();
+      $('#mi_perfil').html('<a><img class="circle responsive-img img-logo" style="margin-top: 10px;height:50px" src="'+profile.getImageUrl()+'" /></a>');
+      $('main').html('Bienvenido <b>'+profile.getName().split(' ')[0]+'</b> con correo <b>'+profile.getEmail()+'</b>')
+      console.log('correo: ' + profile.getEmail()); // This is null if the 'correo' scope is not present.
+      }
+      //naljGdHLgiq4JJJ5ACQUhWhL
+    </script>
   </body>
 </html>
