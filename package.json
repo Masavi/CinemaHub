@@ -2,10 +2,8 @@
   "name": "cinemahub",
   "description": "a really cool app",
   "version": "1.0.0",
+  "main": "node/app.js",
   "engines": {
     "node": "6.11.0"
-  },
-  "scripts": {
-    "start": "node node/app.js"
-	}
+  }
 }

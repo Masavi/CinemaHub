@@ -1,7 +1,7 @@
 var http = require('http');
 var url = require('url');
 var fs = require('fs');
-var session = require('express-session')
+//var session = require('express<-session')
 
 
 http.createServer(function (req, res) {
