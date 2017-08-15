@@ -10,7 +10,6 @@ function onSignIn(googleUser) {
     $('#nombre_pila').html('<small>Bienvenido</small><br>'+profile.getName().split(' ')[0])
 
     $('#mi_perfil').show('fast')
-    $('main').html('Bienvenido <b>'+profile.getName().split(' ')[0]+'</b> con correo <b>'+profile.getEmail()+'</b>')
 
   });
 
