@@ -85,7 +85,8 @@ main {
     color: black;
   }
 
-  .dropdown-content button{
+
+  .dropdown-content button, .dropdown-content a{
     width: 100%;
   }
 
