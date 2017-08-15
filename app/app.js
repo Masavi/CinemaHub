@@ -2,5 +2,5 @@
     'use strict';
 
     angular
-        .module('myApp', []) //Nombre del módulo
+        .module('myApp', ['ngRoute']) //Nombre del módulo
 })();   //Los paréntesis finales son para invocar la funcion
