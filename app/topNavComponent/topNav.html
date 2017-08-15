@@ -1,9 +1,24 @@
 <!-- Navbar Component -->
 
+<ul id="dropdown1" class="dropdown-content" >
+  <div class="row" style="width: 250px;">
+    <div class="col s12">
+    <img id="img-pres" class="circle responsive-img" />
+  </div>
+  <div class="col s12" style="text-align:center">
+      <h5 id="nombre_pila" class="descripcion"></h5>
+    </div>
+    <div class="col s12" >
+      <button class="waves-effect waves-light btn" > ingresar a mi perfil</button>
+    </div>
+    <div class="col s12" >
+      <button class="waves-effect waves-light btn btn-default" > Salir</button>
+    </div>
+</ul>
 <nav>
   <div class="nav-wrapper grey darken-4">
     <a href="#" class="brand-logo center">CinemaHub</a>
-    <ul id="nav-mobile" class="left hide-on-med-and-down">
+    <ul  id="nav-mobile" class="left hide-on-med-and-down">
       <li><a href="#">Foro</a></li>
       <li><a href="#">Proyectos</a></li>
       <li><a href="#">Competencias</a></li>
@@ -11,9 +26,9 @@
     <ul id="nav-mobile" class="right hide-on-med-and-down">
       <li><a href="#"><i class="material-icons">search</i></a></li>
       <li><a href="#"><i class="material-icons">message</i></a></li>
-      <li class="opciones_sesion"><a >Registrarse</a>
-      <li class="opciones_sesion" ng-click="signin()"><a>Iniciar sesión</a></li>
-      <li id="mi_perfil" class="opciones_sesion"></li>
+      <li class="opciones_sesion" ng-click="signin()"><a >Registrarse</a>
+      <li class="opciones_sesion" ><a>Iniciar sesión</a></li>
+      <li id="mi_perfil" class="opciones_sesion"><a href="#!" class="dropdown-button" data-activates="dropdown1"><img id="img-logo" class="circle responsive-img" /></a></li>
     </ul>
   </div>
 </nav>

@@ -5,7 +5,9 @@ body {
 
 main {
   flex: 1 0 auto; }
-
+.descripcion{
+  color: black;
+}
 .page-flexbox-wrapper {
   display: flex;
   min-height: 100vh;
@@ -32,9 +34,35 @@ main {
     margin:auto;
   }
 
+  #img-pres{
+    display:block;
+    margin:auto;
+    padding-top: 20px;
+    width: 125px;
+
+  }
+
   #mi_perfil> a{
     height: 60px;
     margin-top:2.5px;
+  }
+
+  #img-logo{
+    margin-top: 10px;
+    height:40px
+  }
+
+  .btn-default{
+    background-color:white;
+    color: black;
+  }
+  .btn-default:hover{
+    background-color: #eee;
+    color: black;
+  }
+
+  .dropdown-content button{
+    width: 100%;
   }
 
 

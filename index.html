@@ -2,9 +2,11 @@
 <html ng-app="myApp">
   <head>
     <meta charset="UTF-8">
-    <!--meta name="google-signin-client_id" content="372917988801-g61536r7n9e8q38kfv98samgcg7j2f9k.apps.googleusercontent.com"-->
-    <meta name="google-signin-client_id" content="372917988801-moeh8rp3hj1j8iaiv949cho8gc8bjlft.apps.googleusercontent.com">
+    <meta name="google-signin-client_id" content="372917988801-g61536r7n9e8q38kfv98samgcg7j2f9k.apps.googleusercontent.com">
+    <!--meta name="google-signin-client_id" content="372917988801-moeh8rp3hj1j8iaiv949cho8gc8bjlft.apps.googleusercontent.com"-->
     <link rel="shortcut icon" type="image/png" href="http://www.favicon.cc/logo3d/317328.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 
 
     <title>CinemaHub</title>
@@ -85,19 +87,10 @@
     <script src="/app/topNavComponent/navCtrl.js"></script>
     <script src="/app/footerComponent/footerCtrl.js"></script>
     <script src="/app/signinComponent/signinCtrl.js"></script>
+    <script src="/assets/js/login_google.js"></script>
+    <script src="/assets/js/events.js"></script>
 
-    <script>
-      function onSignIn(googleUser) {
-      var profile = googleUser.getBasicProfile();
-      console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
-      console.log('Name: ' + profile.getName());
-      console.log('Image URL: ' + profile.getImageUrl());
-      $('.opciones_sesion:not(#mi_perfil)').hide();
-      $('#mi_perfil').html('<a><img class="circle responsive-img img-logo" style="margin-top: 10px;height:50px" src="'+profile.getImageUrl()+'" /></a>');
-      $('main').html('Bienvenido <b>'+profile.getName().split(' ')[0]+'</b> con correo <b>'+profile.getEmail()+'</b>')
-      console.log('correo: ' + profile.getEmail()); // This is null if the 'correo' scope is not present.
-      }
-      //naljGdHLgiq4JJJ5ACQUhWhL
-    </script>
+
+
   </body>
 </html>
