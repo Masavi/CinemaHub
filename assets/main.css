@@ -1,3 +1,8 @@
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(http://amqueretaro.com/wp-content/uploads/2013/07/El-Cine-de-Oro-en-Mexico.jpg);
+  background-size: cover;
+  height: 100vh; }
+
 body {
   display: flex;
   min-height: 100vh;
@@ -26,13 +31,32 @@ main {
   margin-left: 1em;
   color: white; }
 
-  .modal-sm { width: 33% !important ; }
+.home__banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center; }
+  .home__banner h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 3rem;
+    white-space: nowrap; }
+  .home__banner h2 {
+    font-size: 2rem; }
+  .home__banner p {
+    margin: 0;
+    font-size: 1.3rem; }
 
-  .pull-center >div{
-    display:block;
-    text-align:center;
-    margin:auto;
-  }
+.home__section {
+  background-color: #212121;
+  width: 100%;
+  margin-bottom: 1em;
+  padding: 1em; }
+  .home__section h3 {
+    text-align: center;
+    color: white; }
 
   #img-pres{
     display:block;
@@ -65,5 +89,10 @@ main {
     width: 100%;
   }
 
+.home__foro {
+  display: block; }
+
+.home__foro--span {
+  color: black; }
 
 /*# sourceMappingURL=main.css.map */
