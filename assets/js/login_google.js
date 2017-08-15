@@ -7,7 +7,7 @@ function onSignIn(googleUser) {
   $('.opciones_sesion').hide('slow',function(){
     $('#img-logo').attr('src',profile.getImageUrl());
     $('#img-pres').attr('src',profile.getImageUrl());
-    $('#nombre_pila').html(profile.getName().split(' ')[0])
+    $('#nombre_pila').html('<small>Bienvenido</small><br>'+profile.getName().split(' ')[0])
 
     $('#mi_perfil').show('fast')
     $('main').html('Bienvenido <b>'+profile.getName().split(' ')[0]+'</b> con correo <b>'+profile.getEmail()+'</b>')
