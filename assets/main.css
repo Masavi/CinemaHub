@@ -24,37 +24,4 @@ main {
   margin-left: 1em;
   color: white; }
 
-.home__banner {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  text-align: center; }
-  .home__banner h1 {
-    text-align: center;
-    margin: 0;
-    font-size: 3rem;
-    white-space: nowrap; }
-  .home__banner h2 {
-    font-size: 2rem; }
-  .home__banner p {
-    margin: 0;
-    font-size: 1.3rem; }
-
-.home__section {
-  background-color: #212121;
-  width: 100%;
-  margin-bottom: 1em;
-  padding: 1em; }
-  .home__section h3 {
-    text-align: center;
-    color: white; }
-
-.home__foro {
-  display: block; }
-
-.home__foro--span {
-  color: black; }
-
 /*# sourceMappingURL=main.css.map */

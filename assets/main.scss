@@ -18,6 +18,8 @@ main {
   flex-direction: column;
 }
 
+// Footer
+
 .left-logo {
     margin-right: $logo-margin;
     color: $logo-color;
@@ -32,51 +34,4 @@ main {
 .right-logo {
   margin-left: $logo-margin;
   color: $logo-color;
-}
-
-.home__banner {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  text-align: center;
-
-  h1 {
-    text-align: center;
-    margin: 0;
-    font-size: 3rem;
-    white-space: nowrap;
-  }
-
-  h2 {
-    font-size: 2rem;
-  }
-
-  p {
-    margin: 0;
-    font-size: 1.3rem;
-  }
-
-}
-
-.home__section {
-  background-color: $background-color;
-  width: 100%;
-  margin-bottom: 1em;
-  padding: 1em;
-
-  h3 {
-    text-align: center;
-    color: white;
-  }
-
-}
-
-.home__foro {
-  display: block;
-}
-
-.home__foro--span {
-  color: black;
 }
