@@ -1,0 +1,12 @@
+.banner__texto {
+  border: 1px solid #CC0;
+  margin: auto;
+  margin-top: 150px;
+  text-align: center;
+  width: 50%; }
+  .banner__texto h2 {
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    text-transform: uppercase; }
+
+/*# sourceMappingURL=masavi.css.map */

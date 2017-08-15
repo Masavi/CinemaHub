@@ -11,6 +11,7 @@
 
   function homeCtrl() {
       var vm = this;
+      $('.parallax').parallax();
   }
 
 })();
