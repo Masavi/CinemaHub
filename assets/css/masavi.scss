@@ -1,14 +1,46 @@
 .home__banner{
   margin: auto;
-  margin-top: 15rem;
+  margin-top: 10rem;
   text-align:center;
   width: 50%;
 
   h2{
     color: white;
     text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
-    //text-transform: uppercase;
+    // Ajustar texto en medio del banner
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column;
   }
+}
+
+.parallax-container {
+  height: 50vh;
+}
+
+@media (max-width: 990px) {
+  .resizeimg {
+    height: auto;
+  }
+}
+
+@media (min-width: 1000px) {
+  .resizeimg {
+    width: auto;
+    height: 350px;
+  }
+}
+
+.card .card-image .card-title {
+  color: #fff;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
+  font-size: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  padding: 24px;
 }
 
 .home__seccion{

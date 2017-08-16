@@ -1,10 +1,38 @@
 .home__banner {
   margin: auto;
-  margin-top: 15rem;
+  margin-top: 10rem;
   text-align: center;
   width: 50%; }
   .home__banner h2 {
     color: white;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8); }
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column; }
+
+.parallax-container {
+  height: 50vh; }
+
+@media (max-width: 990px) {
+  .resizeimg {
+    height: auto; } }
+@media (min-width: 1000px) {
+  .resizeimg {
+    width: auto;
+    height: 350px; } }
+.card .card-image .card-title {
+  color: #fff;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+  font-size: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  padding: 24px; }
+
+.home__seccion h3 {
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8); }
 
 /*# sourceMappingURL=masavi.css.map */
