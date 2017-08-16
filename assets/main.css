@@ -1,7 +1,7 @@
-header {
+/*header {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(http://amqueretaro.com/wp-content/uploads/2013/07/El-Cine-de-Oro-en-Mexico.jpg);
   background-size: cover;
-  height: 100vh; }
+  height: 100vh; }*/
 
 body {
   display: flex;
@@ -86,7 +86,7 @@ main {
   }
 
 
-  .dropdown-content button, .dropdown-content a{
+  .dropdown-content button{
     width: 100%;
   }
 

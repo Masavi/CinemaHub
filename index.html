@@ -19,7 +19,7 @@
     <!-- My Stylesheet -->
     <link  rel="stylesheet" type="text/css" href="/assets/main.css">
 
--  </head>
+  </head>
   <body>
 
     <!-- Componentes -->
@@ -27,8 +27,11 @@
     <header>
       <nav-component></nav-component>
     </header>
-    <main ng-view>
-    </main>
+<profile-component></profile-component>
+
+      <main ng-view></main>
+
+
     <footer>
       <footer-component></footer-component>
     </footer>
@@ -64,10 +67,7 @@
         <!--button class="modal-action modal-close waves-effect waves-green btn-flat">Salir</button-->
         <a class="waves-effect waves-light btn">Registrarse</a>
       </div>
-
     </div>
-
-
 
     <!-- AngularJS script -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
@@ -87,10 +87,11 @@
     <script src="/app/footerComponent/footerCtrl.js"></script>
     <script src="/app/signinComponent/signinCtrl.js"></script>
     <script src="/app/homeComponent/homeCtrl.js"></script>
+    <script src="/app/profileComponent/profileCtrl.js"></script>
+    <script src="/app/foroComponent/foroCtrl.js"></script>
+
     <script src="/assets/js/login_google.js"></script>
     <script src="/assets/js/events.js"></script>
-
-
 
   </body>
 </html>

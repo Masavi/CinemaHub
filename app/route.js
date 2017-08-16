@@ -11,7 +11,10 @@
       }).when('/perfil',{
         template: '<profile-component></profile-component>',
         controllerAs: 'vm'
-    });
+    }).when('/foro',{
+      template: '<foro-component></foro-component>',
+      controllerAs: 'vm'
+  });
 }
 
 angular
