@@ -16,6 +16,16 @@
       "Dia de muertos",
       "clasico",
       "drama"
-    ]
+    ],
+    "autor": {
+      "nombre":"Cinefiloco",
+      "trofeos":{
+        "oro":3,
+        "plata": 5,
+        "cobre": 10
+      }
+    },
+    "creado" : "15 de enero de 2016",
+    "ultimo_mensaje" : "15 de agosto de 2017"
   }
 ]

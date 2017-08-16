@@ -106,6 +106,12 @@ main {
 .gold{
   color: gold;
 }
+.silver{
+  color: silver;
+}
+.cupper{
+  color: #B87333;
+}
 
 .tr_foro{
   border-bottom:  1px solid #ddd;

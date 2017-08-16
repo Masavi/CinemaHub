@@ -1,4 +1,86 @@
+
+<style>
+.texto_foro{
+  font-size: 18px;
+  height: 200px;
+  overflow-y: auto;
+}
+</style>
 <section class="container">
-  <a class="waves-effect waves-light btn" href="#!buscadorforo">Atras</a>
+  <a class="waves-effect waves-light btn" href="#!buscadorforo">Regresar a foros</a>
+  <br><br>
+  <div class="row">
+    <div class="col s3">
+      <img class="materialboxed img-adjust" ng-src="{{foro.img}}">
+    </div>
+    <div class="col s9">
+      <h4>{{foro.nombre}}</h4>
+      <p><strong>Por {{foro.autor.nombre}}  </strong>
+        <small><i class="fa fa-trophy gold"></i>  {{foro.autor.trofeos.oro}} </small>
+        <small><i class="fa fa-trophy silver"></i> {{foro.autor.trofeos.plata}}  </small>
+        <small><i class="fa fa-trophy cupper"></i> {{foro.autor.trofeos.cobre}}  </small>
+
+
+      </p>
+      <br><label>Creado el <b>{{foro.creado}}</b> </label>
+      <br><label>Último mensaje el <b>{{foro.ultimo_mensaje}}</b></label>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s12">
+      <p class="texto_foro"  ng-bind-html="foro.texto"></p>
+    </div>
+    <div class="col s12">
+      <span ng-repeat="etiqueta in foro.etiquetas" class="new badge" data-badge-caption="{{etiqueta}}"></span><span style="text-align:right; float: right">Si te interesa este tema también puedes consultar:</span>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s12">
+      <h5>2 Respuestas</h5>
+      <div class="row comentario_container">
+          <div class="col s1">
+            <br>
+            <img class="img-adjust" src="https://gravatar.com/avatar/e53ef2b311753a8e087dfa4994125022?s=512&d=https://codepen.io/assets/avatars/user-avatar-512x512-6e240cf350d2f1cc07c2bed234c3a3bb5f1b237023c204c782622e80d6b212ba.png">
+          </div>
+          <div class="col s11">
+            <div class="texto_comentario">
+              <p>
+              <strong>Cesarin</strong>
+              <span><i class="fa fa-trophy gold"></i>  {{foro.autor.trofeos.oro}} </span>
+              <span><i class="fa fa-trophy silver"></i> {{foro.autor.trofeos.plata}}  </span>
+              <span><i class="fa fa-trophy cupper"></i> {{foro.autor.trofeos.cobre}}  </span>
+              </p>
+              <p >Yo opino que opinar es necesario porque tengo inteligencia y por eso siempre opino.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row comentario_container">
+          <div class="col s1">
+            <br>
+            <img class="img-adjust" src="http://www.gravatar.com/avatar/6bf1422c132f2c5e7776ad47bac15df4?d=identicon&s=300">
+          </div>
+          <div class="col s10">
+            <div class="texto_comentario">
+              <p>
+              <strong>Ricardo</strong>
+              <span><i class="fa fa-trophy gold"></i>  {{foro.autor.trofeos.oro}} </span>
+              <span><i class="fa fa-trophy silver"></i> {{foro.autor.trofeos.plata}}  </span>
+              <span><i class="fa fa-trophy cupper"></i> {{foro.autor.trofeos.cobre}}  </span>
+              </p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque laoreet, nunc sed vehicula viverra, sem tortor accumsan nibh, gravida scelerisque nisi neque ut sem. Ut nulla lacus, varius imperdiet leo id, accumsan blandit dui. Aenean in rhoncus arcu. Aliquam tortor eros, feugiat imperdiet convallis vitae, suscipit quis mi. Nullam pellentesque molestie ligula, eu mollis libero scelerisque vel. Ut cursus justo magna, sit amet porta libero dictum et. Duis rhoncus nisl orci, ut vestibulum enim efficitur scelerisque. Curabitur et quam ex. Mauris eros magna, semper quis dictum eu, auctor eu ex. Ut vehicula id tellus eget condimentum. Proin et dapibus nulla, id fringilla felis. Ut vitae massa magna. Etiam vestibulum nisi quis dui posuere gravida. Nulla risus sem, mollis eget accumsan sed, ullamcorper eu turpis. Fusce sit amet nulla augue. Phasellus aliquam eros ac orci pretium, a viverra metus placerat.</p>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s1"></div>
+    <div class="col s11" >
+      <div simditor ng-model="editor" placeholder="some placeholder"></div>
+      <a class="waves-effect waves-light btn right">Enviar datos</a>
+
+    </div>
+
+    </div>
 
 </section>
