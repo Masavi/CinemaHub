@@ -17,5 +17,40 @@
       "clasico",
       "drama"
     ]
+  },
+  {
+    "id":2,
+    "nombre":"El Indio Fernandez y la estatuilla del Oscar",
+    "intro": "México solía ser tan importante a nivel mundial en cinematografía, que se ve reflejado en la estatuilla",
+    "texto" : "A Emilio Fernández Romo (Indio Fernández) se le vincula a múltiples historias. Este icono de la Época de Oro del cine mexicano, además de ser director, actor y gran artífice de la historia fílmica de México, fue un personaje en sí mismo, uno que es su vida cotidiana generó decenas de historias desde su peculiar y fuerte personalidad.<br \/><br \/>Entre estas se encuentra la historia de cómo este mexicano se convirtió de manera casi fortuita en el modelo de la legendaria estatuilla del Oscar. Resulta que Cedric Gibbons uno de los miembros fundadores de la Academia de Artes y Ciencias Cinematográficas y director de arte de Metro-Goldwyn-Mayer estuvo entre los encargados de supervisar el diseño de la estatua para los oscares.<br \/><br \/>En ese entonces Gibbons ya conocía a la legendaria actriz mexicana Dolores del Río, su futura esposa. Del Río presentó a Gibbons con Fernández; entonces la futura pareja en una no fácil tarea, convenció a Fernández de que posara desnudo para la estatuilla, figura que hoy prevalece en esta premiación.    <br \/><br \/>Las calaveritas de azúcar, el papel picado, los altares de muertos son parte fundamental del arte de la película y aunque está filmada en blanco y negro, es posible apreciar los colores y casi aspirar los aromas que se muestran en el transcurso de los 91 minutos de duración.<br \/><br \/>Además de por las decenas de anécdotas y su irreemplazable papel en la historia del cine mexicano, Fernández quedó inmortalizado en uno de los iconos internacionales del cine, en la estatuilla que insospechadamente muestra perenne el cuerpo del gran Fernández.",
+    "img" : "http://2.bp.blogspot.com/-ycCtU5W7ai0/VrHRzymnulI/AAAAAAAAVgY/A1PQDARSRfA/s1600/el%2Bindio%2Bfernandez%2Boscar.png",
+    "estadisticas" :
+    {
+      "vistas" : 431,
+      "comentarios" : 17,
+      "favs" : 7
+    },
+    "etiquetas":[
+      "oscares",
+      "indio fernandez",
+      "cultura"
+    ]
+  },
+  {
+    "id":3,
+    "nombre":"Películas mexicanas más taquilleras",
+    "intro": "¿Cuáles son las películas con mayores ganancias de la industria mexicana?",
+    "texto" : "Por mi parte solo puedo hablar de 'No se aceptan devoluciones', estrenada el 20 de septiembre de 2013, se trata de una comedia dramática protagonizada, co-escrita y dirigida por el actor y comediante Eugenio Derbez. <br \/><br \/>se convirtió en la primera película mexicana en llegar a los mil millones de pesos mexicanos, quedando primera en la lista de las producciones cinematográficas mexicanas más taquilleras. <br \/><br \/>¿Qué otras películas mexicanas han tenido el mismo impacto económico?",
+    "img" : "http://www.sopitas.com/wp-content/uploads/2016/12/BOOMGERS201604120000QUECULPA.jpg",
+    "estadisticas" :
+    {
+      "vistas" : 231,
+      "comentarios" :22,
+      "favs" : 4
+    },
+    "etiquetas":[
+      "box office",
+      "taquilla"
+    ]
   }
 ]
