@@ -8,6 +8,10 @@ body {
   min-height: 100vh;
   flex-direction: column; }
 
+  .container{
+    width: 85%;
+  }
+
 main {
   flex: 1 0 auto; }
 .descripcion{
@@ -31,6 +35,7 @@ main {
   margin-left: 1em;
   color: white; }
 
+<<<<<<< HEAD
 .home__banner {
   position: absolute;
   top: 50%;
@@ -96,4 +101,6 @@ main {
 .home__foro--span {
   color: black; }
 
+=======
+>>>>>>> 7a964f39612f82f6cd751bb5c1d8aa4568b5237d
 /*# sourceMappingURL=main.css.map */
