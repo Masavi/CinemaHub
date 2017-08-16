@@ -1,24 +1,30 @@
-.home__banner{
-  margin: auto;
-  margin-top: 10rem;
-  text-align:center;
-  width: 50%;
-
-  h2{
-    color: white;
-    text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
-    // Ajustar texto en medio del banner
-    display: flex;
-    justify-content:center;
-    align-content:center;
-    flex-direction:column;
-  }
-}
-
+// Banner
 .parallax-container {
   height: 50vh;
 }
 
+.home__banner{
+  margin: auto;
+  text-align:center;
+  width: 80%;
+
+  h2{
+    color: white;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
+  }
+}
+
+// Cards section
+.home__seccion{
+  h3{
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
+    //text-transform: uppercase;
+  }
+}
+
+// Responsive card-image sizes
 @media (max-width: 990px) {
   .resizeimg {
     height: auto;
@@ -32,6 +38,7 @@
   }
 }
 
+// Cards customization
 .card .card-image .card-title {
   color: #fff;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
@@ -43,10 +50,19 @@
   padding: 24px;
 }
 
-.home__seccion{
-  h3{
-    color: white;
-    text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
-    //text-transform: uppercase;
+.card .card-content{
+  p{
+    font-size: 1.2em;
   }
+}
+
+.card .card-action{
+  padding: 0;
+}
+
+.home__card--action{
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  text-align: center;
 }
