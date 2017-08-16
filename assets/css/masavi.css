@@ -1,18 +1,18 @@
-.home__banner {
-  margin: auto;
-  margin-top: 10rem;
-  text-align: center;
-  width: 50%; }
-  .home__banner h2 {
-    color: white;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column; }
-
 .parallax-container {
   height: 50vh; }
+
+.home__banner {
+  margin: auto;
+  text-align: center;
+  width: 80%; }
+  .home__banner h2 {
+    color: white;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8); }
+
+.home__seccion h3 {
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8); }
 
 @media (max-width: 990px) {
   .resizeimg {
@@ -31,8 +31,16 @@
   max-width: 100%;
   padding: 24px; }
 
-.home__seccion h3 {
-  color: white;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8); }
+.card .card-content p {
+  font-size: 1.2em; }
+
+.card .card-action {
+  padding: 0; }
+
+.home__card--action {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  text-align: center; }
 
 /*# sourceMappingURL=masavi.css.map */
