@@ -9,7 +9,7 @@
       controllerAs: 'vm'
   });
 
-  function foroCtrl() {
+  function foroCtrl($scope,$routeParams) {
       var vm = this;
   }
 

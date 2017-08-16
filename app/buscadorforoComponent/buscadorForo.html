@@ -1,0 +1,56 @@
+  <div class="container">
+
+  <div class="row">
+    <div class="col s10 m10">
+      <h5>Los foros</h5>
+      <table>
+            <thead>
+            <tbody>
+              <tr class="tr_foro" ng-click="">
+                <td class="imagen"><img src="http://homozapping.com.mx/wp-content/uploads/2016/10/marioalmada-38cc_3635334.jpg" ></td>
+                <td>
+                    <h4>Los hermanos Almada </h4>
+                    <p>Una breve historia de los hermanos almada: trayectoria, peliculas</p>
+                    <span class="new badge" data-badge-caption="Historia del cine"></span><span class="new badge"  data-badge-caption="Acción"></span><span class="new badge"  data-badge-caption="Justicieros"></span>
+                </td>
+                <td>
+                  <p><i class="fa fa-eye"></i> 500</p>
+                  <p><i class="fa fa-comment-o"></i> 30</p>
+                  <p><i class="fa fa-star gold"></i> 10</p>
+                </td>
+              </tr>
+
+              <tr class="tr_foro" >
+                <td class="imagen"><img src="http://warp.la/wp-content/uploads/2017/03/cine-musica.jpg" ></td>
+                <td class="informacion">
+                    <h4>Composición músical </h4>
+                    <p> No puede haber cine sin una buena composición músical. Vamos a adentrarnos a este fascinante mundo</p>
+                    <span class="new badge" data-badge-caption="Música"></span><span class="new badge"  data-badge-caption="aprendizaje"></span>
+                </td>
+                <td >
+                  <p><i class="fa fa-eye"></i> 325</p>
+                  <p><i class="fa fa-comment-o"></i> 18</p>
+                  <p><i class="fa fa-star gold"></i> 7</p>
+                </td>
+              </tr>
+
+              <tr ng-click="ir_foro(foro.id)" class="tr_foro" ng-repeat="foro in foros">
+                <td  class="imagen"><img ng-src="{{foro.img}}">
+                <td >
+                    <h4>{{foro.nombre}}</h4>
+                    <p>{{foro.intro}}</p>
+                      <span ng-repeat="etiqueta in foro.etiquetas" class="new badge" data-badge-caption="{{etiqueta}}">
+                </td>
+                <td>
+                  <p><i class="fa fa-eye"></i> {{foro.estadisticas.vistas}}</p>
+                  <p><i class="fa fa-comment-o"></i> {{foro.estadisticas.comentarios}}</p>
+                  <p><i class="fa fa-star gold"></i>  {{foro.estadisticas.favs}}</p>
+                </td>
+              </tr>
+
+            </tbody>
+          </table>
+
+    </div>
+  </div>
+</div>
