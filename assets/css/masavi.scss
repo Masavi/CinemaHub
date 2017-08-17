@@ -77,8 +77,8 @@
   //background-repeat: no-repeat;
   display: flex;
   position: relative;
-  height: 40vh;
-  margin: 1rem 1rem;
+  height: 50vh;
+  margin: 2rem 5rem;;
   box-shadow: 0rem 0.3rem 0.5rem #888888;
 
 }
@@ -195,13 +195,14 @@
   height: 30vh;
   display: flex;
   flex-direction: column;
-  margin: 1rem 1rem;
+  margin: 1rem 5rem;
   margin-top: 1rem;
 
   .stats__title{
     height:20%;
     width: 100%;
     padding-left: 0.5rem;
+    margin-bottom: 0.5rem;
   }
 
   .stats__topicos{
@@ -265,27 +266,88 @@
   }
 }
 
+.stats__see-all{
+  margin: 0.5rem 5rem;
+
+  a{
+    color:#ff9800;
+
+    &:hover{
+      color:#ffcc80;
+    }
+  }
+}
 
 // --------------------- PROFILE COMPONENT: Portafolio ------------------------ //
 
 .section__header{
-  height: 45vh;
+  height: 95vh;
   display: flex;
   flex-direction: row;
-  margin: 1rem 1rem;
+  margin: 1rem 5rem;
   margin-bottom: 1.5rem;
 
   .section__left{
     height: 100%;
     width: 30%;
+    display: flex;
+    flex-direction: column;
     top: 0;
-    //background-color: black;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+
+    .section__left--title{
+      width: 100%;
+      margin-bottom: 0.5rem;
+      padding-left: 0.5rem;
+    }
+
+    .section__left--content{
+      height: 75%;
+      width: 100%;
+      padding-top: 0.5rem;
+      padding-left: 0.25rem;
+      display: flex;
+      flex-direction: column;
+      background-color: #eeeeee;
+
+      .section__left--content-element{
+        display: flex;
+        flex-direction: row;
+        margin: 0.75rem;
+
+        &:hover {
+          color:#ff9800;
+        }
+
+        h6{
+          font-weight: 300;
+          font-size: 1.25rem;
+          padding-left: 0.5rem;
+        }
+      }
+    }
   }
 
   .section__right{
     height: 100%;
     width: 70%;
+    display: flex;
+    flex-direction: column;
     top: 0;
-    background-color: pink;
+    margin-left: 0.5rem;
+
+    .section__right--title{
+      width: 100%;
+      margin-bottom: 0.5rem;
+      padding-left: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .section__right--content{
+      height: 100%;
+      width: 100%;
+      background-color: #eeeeee;
+    }
   }
 }
