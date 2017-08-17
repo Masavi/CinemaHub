@@ -49,7 +49,7 @@
   display: flex;
   position: relative;
   height: 40vh;
-  margin: 0.5rem 0.5rem;
+  margin: 1rem 1rem;
   box-shadow: 0rem 0.3rem 0.5rem #888888; }
 
 .profile__header--section {
@@ -140,5 +140,77 @@
   color: white;
   margin-top: -0.8rem;
   display: block; }
+
+.stats__header {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 1rem;
+  margin-top: 1rem; }
+  .stats__header .stats__title {
+    height: 20%;
+    width: 100%;
+    padding-left: 0.5rem; }
+  .stats__header .stats__topicos {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    padding-left: 0.5rem;
+    background-color: #eeeeee; }
+    .stats__header .stats__topicos .stats__topicos--base {
+      align-items: stretch;
+      display: flex;
+      flex-direction: column;
+      padding-left: 0.5rem;
+      margin: 0 1rem;
+      width: 30%; }
+      .stats__header .stats__topicos .stats__topicos--base .stats__topicos--topico {
+        align-items: stretch;
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 40%;
+        border-radius: 0.25rem;
+        padding: 0.75rem;
+        margin: 1rem 0rem;
+        color: white;
+        background-color: #009688; }
+        .stats__header .stats__topicos .stats__topicos--base .stats__topicos--topico p {
+          font-size: 1.25rem;
+          margin: 0;
+          padding: 0; }
+      .stats__header .stats__topicos .stats__topicos--base .stats__topicos--stats {
+        align-items: stretch;
+        display: flex;
+        flex-direction: row;
+        padding-left: 0.25rem;
+        height: 60%; }
+        .stats__header .stats__topicos .stats__topicos--base .stats__topicos--stats p {
+          text-transform: uppercase;
+          font-size: 1rem;
+          color: #757575;
+          margin-top: 0.5rem;
+          padding: 0;
+          padding-right: 2.5rem; }
+        .stats__header .stats__topicos .stats__topicos--base .stats__topicos--stats span {
+          color: black;
+          padding-left: 0.25rem;
+          font-size: 1.35rem; }
+
+.section__header {
+  height: 45vh;
+  display: flex;
+  flex-direction: row;
+  margin: 1rem 1rem;
+  margin-bottom: 1.5rem; }
+  .section__header .section__left {
+    height: 100%;
+    width: 30%;
+    top: 0; }
+  .section__header .section__right {
+    height: 100%;
+    width: 70%;
+    top: 0;
+    background-color: pink; }
 
 /*# sourceMappingURL=masavi.css.map */

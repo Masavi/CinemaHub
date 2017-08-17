@@ -11,6 +11,7 @@
 
   function profileCtrl() {
       var vm = this;
+      $('.carousel.carousel-slider').carousel({fullWidth: true});
   }
 
 })();
