@@ -6,7 +6,7 @@
 
   <!-- Imagen de Perfil -->
   <div class="profile__header--img">
-    <img class="circle"src="./assets/img/profile/photo.jpg" alt="Foto de Perfil">
+    <img id="element" class="circle" src="./assets/img/profile/photo.jpg" alt="Foto de Perfil">
   </div>
 
   <!-- Información del Usuario -->
@@ -16,16 +16,50 @@
       <!-- Nombre y Profesión -->
       <div class="col s2">
         <div class="profile__header--celda">
-          <h5>Mauricio Saavedra</h5>
-          <h6>Desarrollador Front End</h6>
+            <h5>Mauricio Saavedra</h5>
+            <h6>Desarrollador Front End</h6>
         </div>
       </div>
 
       <!-- Trofeos -->
       <div class="col s4">
-        <div class="profile__header--celda">
-          <i class="fa fa-trophy fa-5x" aria-hidden="true"></i>
-          <i class="fa fa-camera-retro fa-5x"></i>
+        <div class="profile__header--trofeos">
+
+          <!-- Trofeo de Bronce -->
+          <div class="profile__header--celda profile_header--celda-margin">
+            <span class="fa-stack fa-3x">
+                <i class="fa fa-trophy fa-stack-2x trofeo-bronce"></i>
+                <span class="fa fa-stack-1x trofeo-font">
+                    <span class="trofeo-font-position">
+                        1
+                    </span>
+                </span>
+            </span>
+          </div>
+          <!-- Trofeo de Plata -->
+          <div class="profile__header--celda profile_header--celda-margin">
+            <span class="fa-stack fa-3x">
+                <i class="fa fa-trophy fa-stack-2x trofeo-plata"></i>
+                <span class="fa fa-stack-1x trofeo-font">
+                    <span class="trofeo-font-position">
+                        1
+                    </span>
+                </span>
+            </span>
+          </div>
+
+          <!-- Trofeo de Oro -->
+          <div class="profile__header--celda profile_header--celda-margin">
+            <span class="fa-stack fa-3x">
+                <i class="fa fa-trophy fa-stack-2x trofeo-oro"></i>
+                <span class="fa fa-stack-1x trofeo-font">
+                    <span class="trofeo-font-position">
+                        1
+                    </span>
+                </span>
+            </span>
+          </div>
+
         </div>
       </div>
 
