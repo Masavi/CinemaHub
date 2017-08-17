@@ -1,3 +1,5 @@
+// ---------------------------- HOME COMPONENT ----------------------------- //
+
 // Banner
 .parallax-container {
   height: 50vh;
@@ -52,7 +54,7 @@
 
 .card .card-content{
   p{
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
 }
 
@@ -65,4 +67,52 @@
   padding: 0;
   font-size: 1em;
   text-align: center;
+}
+
+// ------------------------- PROFILE COMPONENT ----------------------------- //
+
+.profile__header{
+  background-image: url("http://alternativo.mx/wp-content/uploads/2016/11/kubrick-header.jpg");
+  background-position: center;
+  //background-repeat: no-repeat;
+  display: flex;
+  position: relative;
+  height: 40vh;
+  margin: 0.5rem 0.5rem;
+  box-shadow: 0rem 0.3rem 0.5rem #888888;
+
+}
+
+.profile__header--section{
+  position: absolute;
+  align-items: stretch;
+  height: 40%;
+  width: 100%;
+  bottom: 0;
+  background-color: rgba(255,255,255,0.95);
+}
+
+.profile__header--img{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  bottom: 0;
+  margin: 0.6rem 0.8rem;
+
+  img{
+    width: 100%;
+  }
+}
+
+.profile__header--info-section{
+  position: absolute;
+  align-items: stretch;
+  bottom: 0;
+  padding-left: 9rem;
+  height: 40%;
+  width: 100%;
+}
+
+.profile__header--celda{
+  padding: 1.25em 0;
 }
