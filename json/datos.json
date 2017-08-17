@@ -44,7 +44,17 @@
       "oscares",
       "indio fernandez",
       "cultura"
-    ]
+    ],
+    "autor": {
+      "nombre":"Masaavi",
+      "trofeos":{
+        "oro":2,
+        "plata": 7,
+        "cobre": 35
+      }
+    },
+    "creado" : "21 de junio de 2017",
+    "ultimo_mensaje" : "16 de agosto de 2017"
   },
   {
     "id":3,
@@ -61,6 +71,16 @@
     "etiquetas":[
       "box office",
       "taquilla"
-    ]
+    ],
+    "autor": {
+      "nombre":"Masaavi",
+      "trofeos":{
+        "oro":2,
+        "plata": 7,
+        "cobre": 35
+      }
+    },
+    "creado" : "21 de junio de 2017",
+    "ultimo_mensaje" : "16 de agosto de 2017"
   }
 ]
