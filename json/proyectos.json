@@ -1,0 +1,24 @@
+
+[
+  {
+    "id":1,
+    "nombre": "Hagamos una pelicula sobre Rius",
+    "intro": "Durante tantos años, Rius supo como aprender mientras nos reiamos de sus ocurrencias, con la difusión actual del internet es hora de continuar su legado",
+    "trofeos": 756,
+    "img" : "assets/img/rius.jpg",
+    "etiquetas":[
+      "Comedia",
+      "animación"
+    ],
+    "autor": {
+      "nombre":"El hijo de Rius",
+      "trofeos":{
+        "oro":10,
+        "plata": 45,
+        "cobre": 110
+      }
+    },
+    "dias_faltantes" : "21"
+  }
+
+]

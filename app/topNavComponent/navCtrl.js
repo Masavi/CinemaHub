@@ -15,6 +15,13 @@
         $('#modal_signin').modal('open')
       }
 
+      $scope.cerrar_sesion = function(){
+        $('#img-logo').attr('src','');
+        $('.opciones_sesion').show('fast')
+      }
+
+
+
 
   }
 

@@ -6,13 +6,13 @@
 
  <!-- Foros, Proyectos & Competencias -->
  <div class="section grey lighten-3">
-   <div class="row">
+   <div class="row container">
 
      <!-- Participa en el Foro -->
      <div class="col s4 seccion">
        <div class="card medium">
 
-         <div class="card-image">
+         <div class="card-image" ng-click="ir_lugar('buscadorforo')">
            <img src="./assets/img/escena1.png" rel="https://media.giphy.com/media/l2YWuNv2p6LNcFHhu/giphy.gif" class="resizeimg">
            <span class="card-title home"><strong>Comenta en el Foro</strong></span>
          </div>
@@ -23,7 +23,7 @@
          </div>
 
          <div class="card-action">
-           <a href="#"><h4 class="home__card--action">Ir al foro</h4></a>
+           <a href="#!buscadorforo"><h4 class="home__card--action">Ir al foro</h4></a>
          </div>
        </div>
      </div>
@@ -31,7 +31,7 @@
      <!-- Crea Proyectos -->
      <div class="col s4 seccion">
        <div class="card medium">
-         <div class="card-image">
+         <div class="card-image" ng-click="ir_lugar('buscadorproyecto')">
            <img src="./assets/img/escena2.png" rel="https://media.giphy.com/media/3ohuAm9xsQ7fr8a0Rq/giphy.gif" class="resizeimg">
            <span class="card-title"><strong>Crea Proyectos</strong></span>
          </div>
@@ -40,7 +40,7 @@
            <p>Invita a tu equipo de trabajo y comparte con la comunidad un proyecto donde muestres tu capacidad cinematográfica.</p>
          </div>
          <div class="card-action">
-           <a href="#"><h4 class="home__card--action">Ir a proyectos</h4></a>
+           <a href="#!buscadorproyecto"><h4 class="home__card--action">Ir a proyectos</h4></a>
          </div>
        </div>
      </div>
@@ -48,7 +48,7 @@
      <!-- Participa en Competencias -->
      <div class="col s4 seccion">
        <div class="card medium">
-         <div class="card-image">
+         <div class="card-image" >
            <img src="./assets/img/escena3.png" rel="https://media.giphy.com/media/3owzVZoQ73PBrqqEKc/giphy.gif" class="resizeimg">
            <span class="card-title"><strong>Participa en Concursos</strong></span>
          </div>

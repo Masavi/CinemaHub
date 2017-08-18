@@ -110,9 +110,11 @@ main {
   color: silver;
 }
 .cupper{
-  color: #B87333;
+  color: #cd7f32;
 }
-
+.seccion{
+  cursor: pointer;
+}
 .tr_foro{
   border-bottom:  1px solid #ddd;
   cursor: pointer;

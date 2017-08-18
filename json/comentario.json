@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "mensaje":"Yo opino que opinar es necesario porque tengo inteligencia y por eso siempre opino.",
+    "autor": {
+      "nombre":"Cesarin",
+      "img":"https://gravatar.com/avatar/e53ef2b311753a8e087dfa4994125022?s=512&d=https://codepen.io/assets/avatars/user-avatar-512x512-6e240cf350d2f1cc07c2bed234c3a3bb5f1b237023c204c782622e80d6b212ba.png",
+      "trofeos":{
+        "cobre": 10
+      }
+    }
+  },{
+    "id": 2,
+    "mensaje":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque laoreet, nunc sed vehicula viverra, sem tortor accumsan nibh, gravida scelerisque nisi neque ut sem. Ut nulla lacus, varius imperdiet leo id, accumsan blandit dui. Aenean in rhoncus arcu. Aliquam tortor eros, feugiat imperdiet convallis vitae, suscipit quis mi. Nullam pellentesque molestie ligula, eu mollis libero scelerisque vel. Ut cursus justo magna, sit amet porta libero dictum et. Duis rhoncus nisl orci, ut vestibulum enim efficitur scelerisque. Curabitur et quam ex. Mauris eros magna, semper quis dictum eu, auctor eu ex. Ut vehicula id tellus eget condimentum. Proin et dapibus nulla, id fringilla felis. Ut vitae massa magna. Etiam vestibulum nisi quis dui posuere gravida. Nulla risus sem, mollis eget accumsan sed, ullamcorper eu turpis. Fusce sit amet nulla augue. Phasellus aliquam eros ac orci pretium, a viverra metus placerat.",
+    "autor": {
+      "nombre":"Ricardo",
+      "img" : "http://www.gravatar.com/avatar/6bf1422c132f2c5e7776ad47bac15df4?d=identicon&s=300",
+      "trofeos":{
+        "plata": 3,
+        "cobre": 5
+      }
+    }
+  }
+]

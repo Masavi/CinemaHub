@@ -4,23 +4,24 @@
   <div class="row" style="width: 250px;">
     <div class="col s12">
     <img id="img-pres" class="circle responsive-img" />
-  </div>
-  <div class="col s12" style="text-align:center">
+    </div>
+    <div class="col s12" style="text-align:center">
       <h5 id="nombre_pila" class="descripcion"></h5>
     </div>
     <div class="col s12" >
       <a href="#!perfil" class="waves-effect waves-light btn" style="margin:0px;"  > ingresar a mi perfil</a>
     </div>
     <div class="col s12" >
-      <button class="waves-effect waves-light btn btn-default" > Salir</button>
+      <button ng-click="cerrar_sesion()" class="waves-effect waves-light btn btn-default" > Salir</button>
     </div>
+  </div>
 </ul>
 <nav>
   <div class="nav-wrapper grey darken-4">
     <a href="#" class="brand-logo center">CinemaHub</a>
     <ul  id="nav-mobile" class="left hide-on-med-and-down">
       <li><a href="#!buscadorforo">Foro</a></li>
-      <li><a href="#">Proyectos</a></li>
+      <li><a href="#!buscadorproyecto">Proyectos</a></li>
       <li><a href="#">Competencias</a></li>
     </ul>
     <ul id="nav-mobile" class="right hide-on-med-and-down">

@@ -1,0 +1,31 @@
+<section class="container">
+  <div class="row">
+    <div class="col-s12">
+      <h4>Los proyecto más destacados</h4>
+    </div>
+        <div class="col s4 ">
+          <div class="card proyecto" ng-repeat="proyecto in proyectos">
+            <div class="card-image">
+              <img ng-src="{{proyecto.img}}">
+            </div>
+            <div class="card-content">
+              <span class="card-title">{{proyecto.nombre}}</span>
+              <p>{{proyecto.intro}}</p>
+              <br>
+
+              <p><strong>Por </strong> {{proyecto.autor.nombre}}<br>
+                <i class="fa fa-video-camera gold"></i> {{proyecto.trofeos}}
+
+              </p>
+              <p class="text-right">Quedan <b>{{proyecto.dias_faltantes}}</b> dias</p>
+              <p><span ng-repeat="etiqueta in proyecto.etiquetas" class="new badge" data-badge-caption="{{etiqueta}}"></span></p>
+              <br>
+
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+</section>

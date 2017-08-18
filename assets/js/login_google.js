@@ -4,6 +4,8 @@ function onSignIn(googleUser) {
   console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
   console.log('Name: ' + profile.getName());
   console.log('Image URL: ' + profile.getImageUrl());
+  $('#modal_signin').modal('close')
+
   $('.opciones_sesion').hide('slow',function(){
     $('#img-logo').attr('src',profile.getImageUrl());
     $('#img-pres').attr('src',profile.getImageUrl());

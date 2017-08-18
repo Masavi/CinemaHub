@@ -14,6 +14,12 @@
         }).when('/buscadorforo',{
           template: '<buscadorforo-component></buscadorforo-component>',
           controllerAs: 'vm'
+        }).when('/buscadorproyecto',{
+          template: '<buscadorproyecto-component></buscadorproyecto-component>',
+          controllerAs: 'vm'
+        }).when('/proyecto/:id',{
+          template: '<proyecto-component></proyecto-component>',
+          controllerAs: 'vm'
         }).when('/foro/:id',{
             template: '<foro-component></foro-component>',
             controllerAs: 'vm'
