@@ -48,8 +48,8 @@
   background-position: center;
   display: flex;
   position: relative;
-  height: 40vh;
-  margin: 1rem 1rem;
+  height: 50vh;
+  margin: 2rem 5rem;
   box-shadow: 0rem 0.3rem 0.5rem #888888; }
 
 .profile__header--section {
@@ -145,12 +145,13 @@
   height: 30vh;
   display: flex;
   flex-direction: column;
-  margin: 1rem 1rem;
+  margin: 1rem 5rem;
   margin-top: 1rem; }
   .stats__header .stats__title {
     height: 20%;
     width: 100%;
-    padding-left: 0.5rem; }
+    padding-left: 0.5rem;
+    margin-bottom: 0.5rem; }
   .stats__header .stats__topicos {
     height: 80%;
     width: 100%;
@@ -197,20 +198,64 @@
           padding-left: 0.25rem;
           font-size: 1.35rem; }
 
+.stats__see-all {
+  margin: 0.5rem 5rem; }
+  .stats__see-all a {
+    color: #ff9800; }
+    .stats__see-all a:hover {
+      color: #ffcc80; }
+
 .section__header {
-  height: 45vh;
+  height: 95vh;
   display: flex;
   flex-direction: row;
-  margin: 1rem 1rem;
+  margin: 1rem 5rem;
   margin-bottom: 1.5rem; }
   .section__header .section__left {
     height: 100%;
     width: 30%;
-    top: 0; }
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem; }
+    .section__header .section__left .section__left--title {
+      width: 100%;
+      margin-bottom: 0.5rem;
+      padding-left: 0.5rem; }
+    .section__header .section__left .section__left--content {
+      height: 75%;
+      width: 100%;
+      padding-top: 0.5rem;
+      padding-left: 0.25rem;
+      display: flex;
+      flex-direction: column;
+      background-color: #eeeeee; }
+      .section__header .section__left .section__left--content .section__left--content-element {
+        display: flex;
+        flex-direction: row;
+        margin: 0.75rem; }
+        .section__header .section__left .section__left--content .section__left--content-element:hover {
+          color: #ff9800; }
+        .section__header .section__left .section__left--content .section__left--content-element h6 {
+          font-weight: 300;
+          font-size: 1.25rem;
+          padding-left: 0.5rem; }
   .section__header .section__right {
     height: 100%;
     width: 70%;
+    display: flex;
+    flex-direction: column;
     top: 0;
-    background-color: pink; }
+    margin-left: 0.5rem; }
+    .section__header .section__right .section__right--title {
+      width: 100%;
+      margin-bottom: 0.5rem;
+      padding-left: 0.5rem;
+      margin-bottom: 0.5rem; }
+    .section__header .section__right .section__right--content {
+      height: 100%;
+      width: 100%;
+      background-color: #eeeeee; }
 
 /*# sourceMappingURL=masavi.css.map */
